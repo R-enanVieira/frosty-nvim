@@ -145,6 +145,11 @@
       flake = false;
     };
 
+    "stevearc/dressing.nvim" = {
+      url = "github:stevearc/dressing.nvim";
+      flake = false;
+    };
+
     "andrewferrier/debugprint.nvim" = {
       url = "github:andrewferrier/debugprint.nvim";
       flake = false;
