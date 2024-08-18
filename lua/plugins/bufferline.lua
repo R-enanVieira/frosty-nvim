@@ -35,4 +35,11 @@ return {
         },
         config = config,
     },
+
+    mappings = {
+        n = {
+            ["<S-h>"] = { "<cmd>BufferLineCyclePrev<cr>", "Go to Previous Buffer" },
+            ["<S-l>"] = { "<cmd>BufferLineCycleNext<cr>", "Go to Next Buffer" },
+        },
+    },
 }
