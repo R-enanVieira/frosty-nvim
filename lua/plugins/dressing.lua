@@ -1,6 +1,7 @@
 local function config()
-    local all_borders = "single"
+    local all_borders = "rounded"
     local opts = {
+        -- Trying to make similar to the cmp
         input = {
             -- Set to false to disable the vim.ui.input implementation
             enabled = true,
@@ -12,12 +13,12 @@ local function config()
             trim_prompt = true,
 
             -- Can be 'left', 'right', or 'center'
-            title_pos = "left",
+            title_pos = "center",
 
             -- When true, input will start in insert mode.
             start_in_insert = true,
 
-            -- These are passed to nvim_open_win
+            -- These are passed to nvim_open_win().
             border = all_borders,
             -- 'editor' and 'win' will default to being centered
             relative = "cursor",
