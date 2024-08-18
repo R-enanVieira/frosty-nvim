@@ -19,13 +19,13 @@ Make sure that the `flake` and `nix-command` [experimental features](https://nix
 To try frosty without installing:
 
 ```console
-nix run github:SystematicError/frosty-vim
+nix run github:iagorrr/frosty-nvim
 ```
 
 ### Non-nix
 
 ```console
-git clone https://github.com/SystematicError/frosty-vim ~/.config/nvim --depth 1
+git clone https://github.com/iagorrr/frosty-nvim ~/.config/nvim --depth 1
 ```
 
 ## Language support
@@ -48,6 +48,7 @@ Additionally, further support is provided for the following languages:
 | Nix        | [nil](https://github.com/oxalica/nil)                             | [alejandra](https://github.com/kamadorueda/alejandra) |
 | Python     | [pylsp](https://github.com/python-lsp/python-lsp-server/)         | [ruff](https://github.com/astral-sh/ruff)             |
 | Rust       | [rust-analyzer](https://github.com/rust-lang/rust-analyzer)       | [rustfmt](https://github.com/rust-lang/rustfmt)       |
+| C++        | [clangd](https://clangd.llvm.org/)                                |                                                       |
 | SCSS       | [vscode](https://github.com/hrsh7th/vscode-langservers-extracted) | [prettierd](https://github.com/fsouza/prettierd)      |
 | Typescript |                                                                   | [prettierd](https://github.com/fsouza/prettierd)      |
 | YAML       |                                                                   | [prettierd](https://github.com/fsouza/prettierd)      |
