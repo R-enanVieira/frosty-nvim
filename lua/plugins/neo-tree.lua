@@ -36,6 +36,7 @@ local function config()
         },
 
         window = {
+            position = "right",
             width = 35,
         },
 
