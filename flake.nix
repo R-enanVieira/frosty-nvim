@@ -250,6 +250,8 @@
 
         rust-analyzer
         rustfmt
+
+        clang-tools
       ];
 
       luaDeps = ps:

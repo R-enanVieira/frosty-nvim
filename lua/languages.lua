@@ -26,6 +26,8 @@ languages.servers = {
     },
 
     rust_analyzer = {},
+
+    clangd = {},
 }
 
 languages.formatters = {
