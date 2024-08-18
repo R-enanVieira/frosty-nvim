@@ -43,7 +43,12 @@ return {
                 name = "Telescope",
 
                 f = { "<cmd>Telescope find_files<cr>", "Find files" },
-                g = { "<cmd>Telescope live_grep<cr>", "Live grep" },
+                F = { "<cmd>Telescope find_files no_ignore=true,hidden=true<cr>", "Find files (hidden & ignored)" },
+                G = {
+                    '<cmd>Telescope live_grep vimgrep_arguments={"rg","--hidden","--no-ignore","--with-filename","--line-number","--column"}<cr>',
+                    "Live grep (hidden & ignore)",
+                },
+                g = { "<cmd>Telescope live_grep no_ignore=true,hidden=true<cr>", "Live grep" },
                 r = { "<cmd>Telescope oldfiles<cr>", "Recent files" },
                 x = { "<cmd>Telescope filetypes<cr>", "Set filetype" },
                 b = { "<cmd>Telescope current_buffer_fuzzy_find<cr>", "Buffer grep" },
