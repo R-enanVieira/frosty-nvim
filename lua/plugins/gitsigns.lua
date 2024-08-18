@@ -26,15 +26,15 @@ return {
             ["<leader>g"] = {
                 name = "Git",
 
+                b = { "<cmd>Gitsigns blame_line<cr>", "Blame line" },
+                P = { "<cmd>Gitsigns preview_hunk_inline<cr>", "Preview hunk" },
+                r = { "<cmd>Gitsigns reset_hunk<cr>", "Reset hunk" },
                 s = { "<cmd>Gitsigns stage_hunk<cr>", "Stage hunk" },
+                n = { "<cmd>Gitsigns next_hunk<cr>", "Next hunk" },
+                p = { "<cmd>Gitsigns prev_hunk<cr>", "Prev hunk" },
                 u = { "<cmd>Gitsigns undo_stage_hunk<cr>", "Unstage hunk" },
                 x = { "<cmd>Gitsigns reset_hunk<cr>", "Discard hunk" },
-                p = { "<cmd>Gitsigns preview_hunk_inline<cr>", "Preview hunk" },
-                b = { "<cmd>Gitsigns blame_line<cr>", "Blame line" },
             },
-
-            ["[h"] = { "<cmd>Gitsigns prev_hunk<cr>", "Previous hunk" },
-            ["]h"] = { "<cmd>Gitsigns next_hunk<cr>", "Next hunk" },
         },
     },
 
