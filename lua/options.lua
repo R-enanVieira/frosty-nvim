@@ -6,7 +6,7 @@ opt.lazyredraw = true
 
 opt.timeoutlen = 500
 
-opt.wrap = false
+opt.wrap = true
 opt.whichwrap = "bshl<>[]~"
 
 opt.mouse = "a"
@@ -28,9 +28,11 @@ opt.relativenumber = true
 
 opt.expandtab = true
 opt.smartindent = true
-opt.tabstop = 4
-opt.softtabstop = 4
-opt.shiftwidth = 4
+opt.tabstop = 2
+opt.softtabstop = 2
+opt.shiftwidth = 2
 
 opt.ignorecase = true
 opt.smartcase = true
+
+vim.keymap.set("t", "<Esc>", [[<C-\><C-n>]])

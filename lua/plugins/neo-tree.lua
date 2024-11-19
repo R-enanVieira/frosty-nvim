@@ -41,12 +41,15 @@ local function config()
         },
 
         filesystem = {
-            group_empty_dirs = true,
+            group_empty_dirs = false,
             use_libuv_file_watcher = true,
 
             filtered_items = {
                 hide_dotfiles = false,
                 hide_gitignored = false,
+            },
+            follow_current_file = {
+                enabled = true,
             },
         },
     }
