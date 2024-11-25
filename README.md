@@ -25,7 +25,7 @@ nix run github:R-enanVieira/frosty-nvim
 ### Non-nix
 
 ```console
-git clone https://github.com/iagorrr/frosty-nvim ~/.config/nvim --depth 1
+git clone https://github.com/R-enanVieira/frosty-nvim ~/.config/nvim --depth 1
 ```
 
 ## Language support
