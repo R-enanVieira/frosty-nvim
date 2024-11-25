@@ -19,7 +19,7 @@ Make sure that the `flake` and `nix-command` [experimental features](https://nix
 To try frosty without installing:
 
 ```console
-nix run github:iagorrr/frosty-nvim
+nix run github:R-enanVieira/frosty-nvim
 ```
 
 ### Non-nix
