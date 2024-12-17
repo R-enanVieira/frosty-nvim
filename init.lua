@@ -26,6 +26,7 @@ local plugins = require "loader" {
     "surround",
     "telescope",
     "treesitter",
+    "wakatime",
     "web-devicons",
     "which-key",
 }
