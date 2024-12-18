@@ -199,7 +199,7 @@
       url = "github:windwp/nvim-autopairs";
       flake = false;
     };
-    'wakatime/vim-wakatime' = {
+    "wakatime/vim-wakatime" = {
       url = "github:wakatime/vim-waktime";
       flake = false;
     };
