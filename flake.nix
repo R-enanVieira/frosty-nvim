@@ -200,7 +200,7 @@
       flake = false;
     };
     "wakatime/vim-wakatime" = {
-      url = "github:wakatime/vim-waktime";
+      url = "github:wakatime/vim-wakatime";
       flake = false;
     };
   };
