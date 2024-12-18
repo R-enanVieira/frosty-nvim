@@ -588,6 +588,7 @@
         "stevearc/conform.nvim": "stevearc/conform.nvim",
         "stevearc/dressing.nvim": "stevearc/dressing.nvim",
         "tiagovla/scope.nvim": "tiagovla/scope.nvim",
+        "wakatime/vim-wakatime": "wakatime/vim-wakatime",
         "windwp/nvim-autopairs": "windwp/nvim-autopairs"
       }
     },
@@ -699,6 +700,22 @@
       "original": {
         "owner": "tiagovla",
         "repo": "scope.nvim",
+        "type": "github"
+      }
+    },
+    "wakatime/vim-wakatime": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1731658836,
+        "narHash": "sha256-S7SymK/GR42abii9bkU8tDELn64GEJ4oIccGiAhPpYE=",
+        "owner": "wakatime",
+        "repo": "vim-wakatime",
+        "rev": "cf51327a9e08935569614d1cb24e779ee9f45519",
+        "type": "github"
+      },
+      "original": {
+        "owner": "wakatime",
+        "repo": "vim-wakatime",
         "type": "github"
       }
     },
